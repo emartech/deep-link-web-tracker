@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
+var runSequence = require('run-sequence');
 
 gulp.task('minify-js', function() {
   return gulp.src('build.js')
@@ -18,4 +19,6 @@ gulp.task('concat', function() {
     .pipe(gulp.dest('./'));
 });
 
-gulp.task('build', ['concat', 'minify-js']);
+gulp.task('build', function(cb) {
+  runSequence(['concat', 'minify-js'], cb);
+});
