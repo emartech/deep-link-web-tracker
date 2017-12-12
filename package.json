@@ -1,0 +1,36 @@
+{
+  "name": "deep-link-web-tracker",
+  "version": "1.0.0",
+  "description": "Deep Link Web Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js --reporter list --exit",
+    "build": "gulp build && sed -e 's/^module.exports=/var\\ track=/' dist/build.min.js > dist/tracker.min.js && rm -f dist/build.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emartech/deep-link-web-tracker.git"
+  },
+  "keywords": [
+    "deep",
+    "link",
+    "web",
+    "tracker",
+    "emarsys"
+  ],
+  "author": "Emartech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emartech/deep-link-web-tracker/issues"
+  },
+  "homepage": "https://github.com/emartech/deep-link-web-tracker#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {}
+}
