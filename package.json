@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha *.test.js --reporter list --exit",
-    "build": "gulp build && sed -e 's/^module.exports=/var\\ track=/' dist/build.min.js > dist/tracker.min.js && rm -f dist/build.min.js"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -27,8 +27,11 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-shell": "^0.6.3",
     "gulp-uglify": "^3.0.0",
     "mocha": "^4.0.1",
     "run-sequence": "^2.2.0",
