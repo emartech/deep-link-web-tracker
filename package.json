@@ -1,6 +1,6 @@
 {
   "name": "deep-link-web-tracker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Deep Link Web Tracker",
   "main": "index.js",
   "scripts": {
