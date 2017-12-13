@@ -15,5 +15,5 @@ module.exports = function() {
 
   xhr.setRequestHeader('Content-Type', 'application/json');
 
-  xhr.send({ ems_dl: emsDl[1]});
+  xhr.send(JSON.stringify({ ems_dl: emsDl[1]}));
 };
