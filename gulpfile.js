@@ -9,7 +9,9 @@ var runSequence = require('run-sequence');
 
 gulp.task('minify-js', function() {
   return gulp.src('build.js')
-    .pipe(uglify())
+    .pipe(uglify({
+      compress:false
+    }))
     .pipe(rename({
       suffix: '.min'
     }))
