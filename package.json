@@ -1,8 +1,8 @@
 {
-  "name": "deep-link-web-tracker",
+  "name": "@emartech/deep-link-web-tracker",
   "version": "1.0.3",
   "description": "Deep Link Web Tracker",
-  "main": "index.js",
+  "main": "dist/tracker.min.js",
   "scripts": {
     "test": "mocha *.test.js --reporter list --exit",
     "build": "gulp build"
