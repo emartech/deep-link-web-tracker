@@ -19,7 +19,7 @@
     "emarsys"
   ],
   "author": "Emartech",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/emartech/deep-link-web-tracker/issues"
   },
