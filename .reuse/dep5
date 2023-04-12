@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: deep-link-web-tracker
+Upstream-Contact: SAP Open Source Program Office ospo@sap.com
+Source: https://github.com/emartech/deep-link-web-tracker
+
+Files: *
+Copyright: 2023 SAP SE and deep-link-web-tracker contributors.
+License: MIT
+
