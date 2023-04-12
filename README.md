@@ -1,4 +1,7 @@
 # deep-link-web-tracker
+
+[![REUSE status](https://api.reuse.software/badge/github.com/emartech/deep-link-web-tracker)](https://api.reuse.software/info/github.com/emartech/deep-link-web-tracker)
+
 Deep Link Web Tracker
 
 ## Licensing
